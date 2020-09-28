@@ -4,6 +4,8 @@
 
 A simple and minimal tab component for react.
 
+![rtabs demo](https://i.imgur.com/jTJL422.png)
+
 # Quickstart
 
 To start using `rtabs`
