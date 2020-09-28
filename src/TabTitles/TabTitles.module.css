@@ -1,0 +1,27 @@
+.tabtitles {
+  display: flex;
+  width: 100%;
+
+  z-index: 999;
+}
+
+.showVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: max-content;
+
+  margin-right: -2px;
+}
+
+.showHorizontal {
+  margin-bottom: -2px;
+}
+
+.alignMiddle {
+  justify-content: center;
+}
+
+.alignRight {
+  justify-content: flex-end;
+}

@@ -1,0 +1,20 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.tab {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid red;
+  border-right: none;
+
+  cursor: pointer;
+}
+
+.last {
+  border-right: 1px solid red;
+}

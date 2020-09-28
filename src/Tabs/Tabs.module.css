@@ -1,0 +1,26 @@
+.showTabContent {
+  display: block;
+  height: 100%;
+}
+
+.hideTabContent {
+  display: none;
+}
+
+.showVertical {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontalTitle {
+  width: max-content;
+  position: relative;
+}
+
+.verticalTitle {
+  width: 100%;
+}
+
+.activeTab {
+  border-bottom: 2px solid red;
+}
