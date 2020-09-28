@@ -17,6 +17,10 @@ import "./index.css";
 export default function Tabs({ children, config, className }) {
   const [showIndex, setShowIndex] = useState(0);
 
+  if (config === undefined) {
+    config = {};
+  }
+
   const titles = children
     .map(({ props }) => props.children)
     .map((t, index) => (

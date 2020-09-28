@@ -1,0 +1,77 @@
+# rtabs
+
+[![github starts](https://img.shields.io/github/stars/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/stargazers) [![github issues](https://img.shields.io/github/issues/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/issues) [![live demo](https://img.shields.io/badge/Demo-online-success?logo=firebase&style=plastic)](https://react-yw39qt.stackblitz.io)
+
+A simple and minimal tab component for react.
+
+# Quickstart
+
+To start using `rtabs`
+
+**1. Install**
+
+```shell
+npm install rtabs
+yarn add rtabs
+```
+
+**2. Import necessary components from `rtabs`**
+
+```js
+import { Tabs, Tab, TabTitle, TabContent } from "rtabs";
+```
+
+**3. Add `Tab` components inside `Tabs`**
+
+```js
+import React from "react";
+import { Tabs, Tab, TabTitle, TabContent } from "rtabs";
+
+function ReactTabs() {
+  return (
+    <div>
+      <Tabs>
+        <Tab>
+          <TabTitle>Tab Title 01</TabTitle>
+          <TabContent>Tab Content 01</TabContent>
+        </Tab>
+        <Tab>
+          <TabTitle>Tab Title 02</TabTitle>
+          <TabContent>Tab Content 02</TabContent>
+        </Tab>
+        <Tab>
+          <TabTitle>Tab Title 03</TabTitle>
+          <TabContent>Tab Content 03</TabContent>
+        </Tab>
+        <Tab>
+          <TabTitle>Tab Title 04</TabTitle>
+          <TabContent>Tab Content 04</TabContent>
+        </Tab>
+      </Tabs>
+    </div>
+  );
+}
+
+export default ReactTabs;
+```
+
+# Configurations
+
+A configuratio object can be passed to `<Tabs/>` component.
+
+```js
+<Tabs config={{}}>
+  <Tab>
+    <TabTitle>Tab Title 01</TabTitle>
+    <TabContent>Tab Content 01</TabContent>
+  </Tab>
+</Tabs>
+```
+
+**Properties**
+
+| Property    | Description                | Type   | Accepted Values                              | Default      |
+| ----------- | -------------------------- | ------ | -------------------------------------------- | ------------ |
+| layout      | Layout of tabs             | String | `horizontal`,`vertical`                      | `horizontal` |
+| alignTitles | Alignment of Tab Titles    | String | `left`,`middle`,`right`                      | `left`       |
+| activeColor | Active tab underline color | String | `black` , `#eee` (Any hex/rgb or rgba value) | `black`      |
