@@ -10,7 +10,7 @@ To start using `rtabs`
 
 **1. Install**
 
-```shell
+```bash
 npm install rtabs
 yarn add rtabs
 ```
