@@ -1,6 +1,6 @@
 # rtabs
 
-[![github starts](https://img.shields.io/github/stars/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/stargazers) [![github issues](https://img.shields.io/github/issues/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/issues) [![live demo](https://img.shields.io/badge/Demo-online-success?logo=firebase&style=plastic)](https://rtabs-demo.netlify.app/)
+[![github starts](https://img.shields.io/github/stars/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/stargazers) [![github issues](https://img.shields.io/github/issues/dmcshehan/rtabs)](https://github.com/dmcshehan/rtabs/issues) [![live demo](https://img.shields.io/badge/Demo-online-success?logo=netlify&style=plastic)](https://rtabs-demo.netlify.app/)
 
 A simple and minimal tab component for react.
 
