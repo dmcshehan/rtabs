@@ -68,7 +68,7 @@ A configuratio object can be passed to `<Tabs/>` component.
 </Tabs>
 ```
 
-**Properties**
+## Properties
 
 | Property    | Description                | Type   | Accepted Values                              | Default      |
 | ----------- | -------------------------- | ------ | -------------------------------------------- | ------------ |
