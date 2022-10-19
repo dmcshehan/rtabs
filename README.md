@@ -4,7 +4,7 @@ A simple and minimal tab component for react.
 
 ![rtabs demo](https://i.imgur.com/jTJL422.png)
 
-<a href="https://rtabs-demo.netlify.app/">**Live Demo**</a> / <a href="https://www.npmjs.com/package/rtabs">**NPM Page**</a>
+<a target="_blank" href="https://rtabs-demo.netlify.app/">**Live Demo**</a> / <a target="_blank" href="https://www.npmjs.com/package/rtabs">**NPM Page**</a>
 
 
 ## Quickstart
