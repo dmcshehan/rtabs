@@ -4,7 +4,7 @@ A simple and minimal tab component for react.
 
 ![rtabs demo](https://i.imgur.com/jTJL422.png)
 
-### Quickstart
+## Quickstart
 
 To start using `rtabs`
 
@@ -55,7 +55,7 @@ function ReactTabs() {
 export default ReactTabs;
 ```
 
-### Configurations
+## Configurations
 
 A configuratio object can be passed to `<Tabs/>` component.
 
